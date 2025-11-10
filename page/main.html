@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mark Henderson</h1>
+        <ul>
+            <a href="#about">
+                <li>About</li>
+            </a>
+            <a href="#projects">
+                <li>Projects</li>
+            </a>
+            <a href="#contact">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </header>
+
+    <!-- Ana Bölüm -->
+    <main id="home">
+        <div class="intro-container">
+            <img class="profile-img" src="/images/pp.png" alt="Mark Henderson">
+            <div class="intro-text">
+                <h1>Hi, I am Mark Henderson</h1>
+                <p>I've been working as a frontend developer at a private company...</p>
+                <button class="cta-button" id="see-work">See My Work</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Hakkımda Bölümü -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p>I've been working as a frontend developer at a private company in Amsterdam for 4.5 years. I'm proficient
+                in C#, Dart, JavaScript, and several other languages.</p>
+            <p>I'm 27 years old and graduated from Leiden
+                University. In my spare time, I work on projects to further my skills. If you're interested in
+                collaborating, please contact me.</p>
+        </div>
+    </section>
+
+    <!-- Projeler Bölümü -->
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Interactive Quiz App</h3>
+                <p>A simple multi-choice quiz application that tracks the score and provides feedback upon completion. Built with HTML, CSS, and plain JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <h3>E-commerce Product Page</h3>
+                <p>A visually appealing, static product detail page template with image galleries and product options. Built with React for components and styled using Tailwind CSS.</p>
+            </div>
+            <div class="project-card">
+                <h3>Weather Dashboard</h3>
+                <p>Fetches and displays weather data using a public API (e.g., OpenWeatherMap) based on user city input. The design is responsive and fully interactive.</p>
+            </div>
+            <div class="project-card">
+                <h3>Budget Tracker</h3>
+                <p>A simple application to input and categorize income/expenses, showing a running balance. Data is persisted using the browser's LocalStorage. Developed using Vanilla JavaScript (or Vue.js).</p>
+            </div>
+            <div class="project-card">
+                <h3>Meme Generator</h3>
+                <p>Allows users to upload an image and add custom top/bottom text, then download the resulting image. Leverages HTML Canvas for image manipulation and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <h3>Personal Portfolio Site</h3>
+                <p>A professional, single-page website showcasing your skills, experience, and the other projects listed here. Focuses on clean design, great UX, and full responsiveness.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p>📞 +90 555 111 22 33</p>
+                <p>✉️ info@markportfolio.com</p>
+            </div>
+            <div class="footer-column">
+                <h3>Socials</h3>
+                <div class="social-links">
+                    <a href="#" target="_blank">LinkedIn</a>
+                    <a href="#" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Mark Henderson. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
